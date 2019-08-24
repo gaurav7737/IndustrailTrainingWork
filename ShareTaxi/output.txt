@@ -1,0 +1,184 @@
+Starting the system of TaxiManagement......
+New Taxi of ID: 1 arrives
+
+
+New Taxi of ID: 2 arrives
+
+
+New Taxi of ID: 3 arrives
+
+
+New Taxi of ID: 4 arrives
+
+
+New Taxi of ID: 5 arrives
+
+
+Creating a TaxiStand with capacity of 5
+Starting taxiQueue Thread... creating new taxi...
+
+New passenger id=0 with destination HEBBAL arrives.
+New passenger allocated-> HEBBAL Taxi destination-> null
+Empty Taxi - set Destination HEBBAL
+Passenger boards taxi to HEBBAL- passenger count: 1
+New passenger id=1 with destination MGROAD arrives.
+New passenger allocated-> MGROAD Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> MGROAD Taxi destination-> null
+Empty Taxi - set Destination MGROAD
+Passenger boards taxi to MGROAD- passenger count: 1
+New passenger id=2 with destination HSRLAYOUT arrives.
+New passenger allocated-> HSRLAYOUT Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> HSRLAYOUT Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> HSRLAYOUT Taxi destination-> null
+Empty Taxi - set Destination HSRLAYOUT
+Passenger boards taxi to HSRLAYOUT- passenger count: 1
+New passenger id=3 with destination KORAMANGLA arrives.
+New passenger allocated-> KORAMANGLA Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> KORAMANGLA Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> KORAMANGLA Taxi destination-> HSRLAYOUT
+Unable to allocate passenger to this taxi
+New passenger allocated-> KORAMANGLA Taxi destination-> null
+Empty Taxi - set Destination KORAMANGLA
+Passenger boards taxi to KORAMANGLA- passenger count: 1
+New passenger id=4 with destination SARJAPUR arrives.
+New passenger allocated-> SARJAPUR Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> HSRLAYOUT
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> KORAMANGLA
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> null
+Empty Taxi - set Destination SARJAPUR
+Passenger boards taxi to SARJAPUR- passenger count: 1
+New passenger id=5 with destination HSRLAYOUT arrives.
+New passenger allocated-> HSRLAYOUT Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> HSRLAYOUT Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> HSRLAYOUT Taxi destination-> HSRLAYOUT
+Found taxi to HSRLAYOUT
+Passenger boards taxi to HSRLAYOUT- passenger count: 2
+New passenger id=6 with destination SARJAPUR arrives.
+New passenger allocated-> SARJAPUR Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> HSRLAYOUT
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> KORAMANGLA
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> SARJAPUR
+Found taxi to SARJAPUR
+Passenger boards taxi to SARJAPUR- passenger count: 2
+New passenger id=7 with destination SARJAPUR arrives.
+New passenger allocated-> SARJAPUR Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> HSRLAYOUT
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> KORAMANGLA
+Unable to allocate passenger to this taxi
+New passenger allocated-> SARJAPUR Taxi destination-> SARJAPUR
+Found taxi to SARJAPUR
+Passenger boards taxi to SARJAPUR- passenger count: 3
+New passenger id=8 with destination MGROAD arrives.
+New passenger allocated-> MGROAD Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> MGROAD Taxi destination-> MGROAD
+Found taxi to MGROAD
+Passenger boards taxi to MGROAD- passenger count: 2
+New passenger id=9 with destination HSRLAYOUT arrives.
+New passenger allocated-> HSRLAYOUT Taxi destination-> HEBBAL
+Unable to allocate passenger to this taxi
+New passenger allocated-> HSRLAYOUT Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> HSRLAYOUT Taxi destination-> HSRLAYOUT
+Found taxi to HSRLAYOUT
+Passenger boards taxi to HSRLAYOUT- passenger count: 3
+Taxi 0 leaves for destination: HEBBAL TIMEOUT
+New passenger id=10 with destination PEENYA arrives.
+New passenger allocated-> PEENYA Taxi destination-> MGROAD
+Unable to allocate passenger to this taxi
+New passenger allocated-> PEENYA Taxi destination-> HSRLAYOUT
+Unable to allocate passenger to this taxi
+New passenger allocated-> PEENYA Taxi destination-> KORAMANGLA
+Unable to allocate passenger to this taxi
+New passenger allocated-> PEENYA Taxi destination-> SARJAPUR
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 2
+Taxi 1 leaves for destination: MGROAD TIMEOUT
+New passenger id=11 with destination PEENYA arrives.
+New passenger allocated-> PEENYA Taxi destination-> HSRLAYOUT
+Unable to allocate passenger to this taxi
+New passenger allocated-> PEENYA Taxi destination-> KORAMANGLA
+Unable to allocate passenger to this taxi
+New passenger allocated-> PEENYA Taxi destination-> SARJAPUR
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 3
+Taxi 2 leaves for destination: HSRLAYOUT TIMEOUT
+New passenger id=12 with destination WHITEFIELD arrives.
+New passenger allocated-> WHITEFIELD Taxi destination-> KORAMANGLA
+Unable to allocate passenger to this taxi
+New passenger allocated-> WHITEFIELD Taxi destination-> SARJAPUR
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 4
+Taxi 3 leaves for destination: KORAMANGLA TIMEOUT
+New passenger id=13 with destination HEBBAL arrives.
+New passenger allocated-> HEBBAL Taxi destination-> SARJAPUR
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 5
+Taxi 4 leaves for destination: SARJAPUR TIMEOUT
+New passenger id=14 with destination KRPURAM arrives.
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 6
+New passenger id=15 with destination PEENYA arrives.
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 7
+New Taxi of ID: 6 arrives
+
+
+Taxi added to Stand
+New passenger id=16 with destination WHITEFIELD arrives.
+New passenger allocated-> WHITEFIELD Taxi destination-> null
+Empty Taxi - set Destination WHITEFIELD
+Passenger boards taxi to WHITEFIELD- passenger count: 1
+New passenger id=17 with destination INDIRANAGAR arrives.
+New passenger allocated-> INDIRANAGAR Taxi destination-> WHITEFIELD
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 7
+New passenger id=18 with destination KRPURAM arrives.
+New passenger allocated-> KRPURAM Taxi destination-> WHITEFIELD
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 8
+New passenger id=19 with destination KORAMANGLA arrives.
+New passenger allocated-> KORAMANGLA Taxi destination-> WHITEFIELD
+Unable to allocate passenger to this taxi
+Passenger added to queue
+No cab found for passenger. Adding to Queue..
+Passeneger added to queue. Queue Length 9
+New passenger id=20 with destination WHITEFIELD arrives.
+New passenger allocated-> WHITEFIELD Taxi destination-> WHITEFIELD
+Found taxi to WHITEFIELD
+Passenger boards taxi to WHITEFIELD- passenger count: 2
