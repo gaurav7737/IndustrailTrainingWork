@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringAssignment Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Gaurav.Bansal
+Implementation-Vendor-Id: com.accolite
+Build-Jdk: 1.8.0_191
+Created-By: Maven Integration for Eclipse
+
