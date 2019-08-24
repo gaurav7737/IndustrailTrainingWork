@@ -1,0 +1,21 @@
+package com.au.library.repository;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.au.library.model.Book;
+
+@Repository
+public class BooksDao {
+	
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	
+	public List<Book> all() {
+		jdbcTemplate.query("select * from book",(rs));
+	}
+	
+}

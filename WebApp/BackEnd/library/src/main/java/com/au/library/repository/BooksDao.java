@@ -1,0 +1,75 @@
+package com.au.library.repository;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.au.library.model.Book;
+import com.au.library.model.Cart;
+
+@Repository
+public class BooksDao {
+	
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	
+	public List<Book> all() {
+		return jdbcTemplate.query("select * from book",(rs,i)->{
+			return new Book(rs.getString("bookId"),
+					rs.getString("bookName"),
+					rs.getString("authorName"),
+					rs.getDouble("prize"),
+					rs.getString("desp")
+					);
+		});
+	}
+	
+	public Book get(String id) {
+		List<Book> books= jdbcTemplate.query("select * from book where bookId="+id,(rs,i)->{
+			return new Book(rs.getString("bookId"),
+					rs.getString("bookName"),
+					rs.getString("authorName"),
+					rs.getDouble("prize"),
+					rs.getString("desp")
+					);
+		});
+		return books.get(0);
+	}
+	
+	public Book create(Book book)
+	{
+		jdbcTemplate.update("insert into book (bookId,desp,authorName,bookName,prize)"
+				+"values(?,?,?,?,?)",
+				new Object[] { book.getId(),//Integer.parseInt(book.getId()),
+						book.getDescription(),
+						book.getAuthorName(),
+						book.getBookName(),
+						book.getPrize()});
+		//book.setId("23");
+		return book;
+	}
+	
+	public Cart createCart(Cart cart)
+	{
+		jdbcTemplate.update("insert into cart (bookId,bookName,prize)"
+				+"values(?,?,?)",
+				new Object[] { cart.getId(),//Integer.parseInt(book.getId()),
+						cart.getBookName(),
+						cart.getPrize()});
+		//book.setId("23");
+		return cart;
+	}
+	
+	public List<Cart> allCart() {
+		return jdbcTemplate.query("select * from cart",(rs,i)->{
+			return new Cart(rs.getString("bookId"),
+					rs.getString("bookName"),
+					rs.getDouble("prize")
+					);
+		});
+	}
+	
+
+}

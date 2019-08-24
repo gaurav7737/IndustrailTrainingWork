@@ -1,0 +1,26 @@
+<p class="sectionHeader jumbotron ">
+  search works!
+  
+</p>
+
+<!--<span *ngIf="book && book.bookName">{{book.bookName}}</span> -->
+
+<div class="card-columns">
+    <div *ngFor="let book of books" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{book.bookName}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{book.authorName}}</h6>
+          <p class="card-text">{{book.description}}</p>
+          <button type="button" class="btn btn-primary" (click)="checkout(book)">Add to Cart</button> 
+          <p></p>
+        </div>
+      </div>
+    <!-- <ul>
+        <li *ngFor="let book of books">
+           <a [routerLink]="['/book', book.id]" routerLinkActive="active"> {{book.bookName}} </a>
+           <button type="button" (click)="checkout(book)">Add to Cart</button> 
+        </li>
+  
+    </ul> -->
+  </div>
+

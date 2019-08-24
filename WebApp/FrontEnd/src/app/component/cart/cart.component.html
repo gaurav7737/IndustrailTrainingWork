@@ -1,0 +1,17 @@
+<p class="sectionHeader jumbotron ">
+  Items added in Cart:
+</p>
+
+<div class="card-columns">
+    <div *ngFor="let book of books" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Book: {{book.bookName}}</h5>
+          <a href="#" class="btn btn-primary">Price Rs{{book.prize}}</a>
+          <p></p>
+        </div>
+      </div>
+    
+  </div>
+
+
+
